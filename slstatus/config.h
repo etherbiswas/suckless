@@ -69,5 +69,5 @@ static const struct arg args[] = {
     { run_command, " [%s] ", "amixer get Master | awk -F'[][]' '/%/ {gsub(/%/,\"\",$2); printf \"Vol %d%%\", $2; exit}'" },
 	{ cpu_perc, "[CPU %s%%] ", NULL	      },
 	{ ram_perc, "[RAM %s%%] ", NULL	      },
-    { datetime, "| %s", "%a %-H:%M %m-%d-%y" },
+    { datetime, "| %s", "%a %I:%M %p %m-%d-%y" },
 };

@@ -1,3 +1,8 @@
 # Build artifacts
+*.o
+
+dwm/dwm
+dmenu/dmenu
+dmenu/stest
+slstatus/slstatus
 dwmstatus/dwmstatus
-dwmstatus/*.o
